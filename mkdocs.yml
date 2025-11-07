@@ -3,6 +3,9 @@ site_url: https://nodesautomations.com/Template_MkDocs/
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: black
 
 nav:
   - Home: Index.md
