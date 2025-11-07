@@ -8,6 +8,6 @@ theme:
     primary: black
 
 nav:
-  - Home: Index.md
+  - Home: Home.md
   - Typography: Typography.md
   - Configuration: Configuration.md
