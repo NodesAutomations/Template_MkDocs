@@ -28,7 +28,7 @@ nav:
 # Footer social links
 extra:
   social:
-    - icon: fontawesome/brands/globe
+    - icon: assets/favicon.png
       link: https://www.nodesautomations.com
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCnrjW31os9P6_MtSZXt6o-g
