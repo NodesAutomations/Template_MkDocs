@@ -51,6 +51,18 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.arithmatex: # for rendering math equations
+      generic: true
+
+# Extra JavaScript for KaTeX
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+# Extra CSS for KaTeX
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 # Copyright
 copyright: Copyright &copy; 2025 Nodes Automations
