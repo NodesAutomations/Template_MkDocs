@@ -44,7 +44,7 @@ theme:
 # Extensions
 markdown_extensions:
   - admonition # for Callout boxes
-  - pymdownx.highlight: # for code block enhancements
+  - pymdownx.highlight: 
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
@@ -53,6 +53,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex: # for rendering math equations
       generic: true
+  - def_list # List extensions
+  - pymdownx.tasklist: # List extensions
+      custom_checkbox: true
 
 # Extra JavaScript for KaTeX
 extra_javascript:
