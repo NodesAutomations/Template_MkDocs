@@ -1,6 +1,18 @@
+# Site settings
 site_name: MkDocs
 site_url: https://nodesautomations.com/Template_MkDocs/
 
+# Repository Details for "Edit on GitHub" links
+repo_name: Template_MkDocs
+repo_url: https://github.com/NodesAutomations/Template_MkDocs
+
+# Navigation
+nav:
+  - Home: index.md
+  - Typography: Typography.md
+  - Configuration: Configuration.md
+
+# Theme
 theme:
   name: material
   logo: assets/favicon.png
@@ -19,15 +31,6 @@ theme:
       toggle:
           icon: material/brightness-7
           name: Switch to dark mode
-
-nav:
-  - Home: index.md
-  - Typography: Typography.md
-  - Configuration: Configuration.md
-
-# Repository
-repo_name: GitHub
-repo_url: https://github.com/NodesAutomations/Template_MkDocs
 
 # Copyright
 copyright: Copyright &copy; 2025 Nodes Automations
