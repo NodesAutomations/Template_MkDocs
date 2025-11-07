@@ -34,6 +34,7 @@ theme:
           name: Switch to dark mode
   features:
     - content.action.edit
+    - content.action.view
   icon:
     repo: fontawesome/brands/git-alt 
     edit: material/pencil 
