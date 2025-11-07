@@ -1,5 +1,5 @@
-site_name: Sample Documentation
-site_url: https://your-github-username.github.io/Template_MkDocs/
+site_name: MkDocs Material Template
+site_url: https://nodesautomations.com/Template_MkDocs/
 
 theme:
   name: material
