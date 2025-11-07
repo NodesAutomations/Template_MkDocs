@@ -19,6 +19,6 @@ theme:
           name: Switch to dark mode
 
 nav:
-  - Home: Home.md
+  - Home: index.md
   - Typography: Typography.md
   - Configuration: Configuration.md

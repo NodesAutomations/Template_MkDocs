@@ -7,7 +7,7 @@ This is a sample documentation site built with MkDocs Material and deployed usin
 - Page order is set using `nav:` setting in configuration
 ```yaml
 nav:
-  - Home: Home.md
+  - Home: index.md
   - Typography: Typography.md
   - Configuration: Configuration.md
 ```
