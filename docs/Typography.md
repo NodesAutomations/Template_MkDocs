@@ -91,7 +91,7 @@ note callout
 quote callout
 
 # Math
-Inline math: $$E = mc^2$$
+Inline math: $E = mc^2$
 
 Block math:
 $$
