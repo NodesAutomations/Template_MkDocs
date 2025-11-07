@@ -67,21 +67,27 @@ print("Hello, World!")
 # Call outs
 
 !!! tip
+
 Tip/Idea callout
 
 !!! info
+
 Info Type Callout
 
 !!! warning 
+
 warning Type Callout
 
 !!! danger
+
 danger Type Callout
 
 !!! note
+
 note callout
  
 !!! quote
+
 quote callout
 
 # Math
