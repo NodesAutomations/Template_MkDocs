@@ -66,19 +66,23 @@ print("Hello, World!")
 
 # Call outs
 
-{: .tip }
+!!! tip
 Tip/Idea callout
 
-{: .info }
+!!! info
 Info Type Callout
 
-{: .warning }
+!!! warning 
 warning Type Callout
 
-{: .danger }
+!!! danger
 danger Type Callout
 
+!!! note
+note callout
  
+!!! quote
+quote callout
 
 # Math
 Inline math: $$E = mc^2$$
