@@ -1,8 +1,10 @@
-site_name: MkDocs Material Template
+site_name: MkDocs
 site_url: https://nodesautomations.com/Template_MkDocs/
 
 theme:
   name: material
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -22,3 +24,15 @@ nav:
   - Home: index.md
   - Typography: Typography.md
   - Configuration: Configuration.md
+
+# Footer social links
+extra:
+  social:
+    - type: globe
+      link: https://www.nodesautomations.com
+    - type: youtube
+      link: https://www.youtube.com/channel/UCnrjW31os9P6_MtSZXt6o-g
+    - type: linkedin
+      link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
+    - type: envelope
+      link: mailto:vivek@nodesautomations.com

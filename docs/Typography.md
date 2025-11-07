@@ -129,7 +129,7 @@ Here is a statement with a footnote.[^1]
 ---
 
 # Image Local
-![Nodes Logo](../assets/images/logo.webp)
+![Nodes Logo](assets/favicon.png)
 
 # Image Online
 ![Sample Image](https://nodesautomations.com/assets/images/home.webp)
