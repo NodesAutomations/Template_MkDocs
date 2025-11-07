@@ -168,7 +168,6 @@ Here is a statement with a footnote.[^1]
 | **Total Area** |   |   | **12040** |
 
 
-
 # Horizontal Separator
 
 ---
@@ -178,3 +177,13 @@ Here is a statement with a footnote.[^1]
 
 # Image Online
 ![Sample Image](https://nodesautomations.com/assets/images/home.webp)
+
+# Diagrams
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
