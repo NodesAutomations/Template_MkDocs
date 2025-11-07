@@ -1,0 +1,7 @@
+site_name: Sample Documentation
+site_url: https://your-github-username.github.io/Template_MkDocs/
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - About: about.md
