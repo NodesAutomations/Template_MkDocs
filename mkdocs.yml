@@ -4,8 +4,19 @@ site_url: https://nodesautomations.com/Template_MkDocs/
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: black
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
 
 nav:
   - Home: Home.md
