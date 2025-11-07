@@ -28,11 +28,11 @@ nav:
 # Footer social links
 extra:
   social:
-    - type: globe
+    - icon: fontawesome/brands/globe
       link: https://www.nodesautomations.com
-    - type: youtube
+    - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCnrjW31os9P6_MtSZXt6o-g
-    - type: linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
-    - type: envelope
-      link: mailto:vivek@nodesautomations.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/orgs/NodesAutomations
