@@ -1,4 +1,4 @@
-# Header 1 
+# Typography 
 This is sample Header 1
 
 ## Header 2
@@ -8,30 +8,30 @@ This is sample Header 2
 This is sample Header 3
 
 
-# Page Break
+## Page Break
 Next Section will start on new page in pdf
 <div style="page-break-after: always; break-after: page;"></div>
 
-# Paragraphs
+## Paragraphs
 This is a simple paragraph to test text formatting. 
 
 Another paragraph with **bold**, *italic*, and ~~strikethrough~~ text. Also, some `inline code`.
 
-# Bullet List
+## Bullet List
 - This is bullet list 1
 - This is bullet list 2
 - This is bullet list 3
   - Nested bullet 1
   - Nested bullet 2
 
-# Numbered List
+## Numbered List
 1. Numbered List 1
 2. Numbered List 2
 3. Numbered List 3
    1. Nested Numbered 1
    2. Nested Numbered 2
 
-# Checklist
+## Checklist
 - [x] Checked item
 - [ ] Unchecked item
 - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -41,29 +41,29 @@ Another paragraph with **bold**, *italic*, and ~~strikethrough~~ text. Also, som
     * [ ] Praesent sed risus massa
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
-# Definition List
+## Definition List
 Term 1
 : Definition for term 1
 
 Term 2
 : Definition for term 2
 
-# Emojis
+## Emojis
 - ✅ Ok
 - ❌ Error
 - ⚠️ Warning
 - ℹ️ Info
 
 
-# Code Block
+## Code Block
 
-## Regular
+### Regular
 ```python
 # This is a code block
 print("Hello, World!")
 ```
 
-## With Title
+### With Title
 ``` py title="bubble_sort.py"
 def bubble_sort(items):
     for i in range(len(items)):
@@ -72,7 +72,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-## Line Numbers
+### Line Numbers
 ``` py linenums="1"
 def bubble_sort(items):
     for i in range(len(items)):
@@ -81,7 +81,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-## Highlight specific lines
+### Highlight specific lines
 ``` py hl_lines="2 3"
 def bubble_sort(items):
     for i in range(len(items)):
@@ -90,16 +90,16 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-# Links
+## Links
 - [GitHub](https://github.com)
 - [Youtube](https://github.com)
 
 
-# Blockquote
+## Blockquote
 > This is a blockquote. It can span multiple lines.
 > Second line of blockquote.
 
-# Call outs
+## Call outs
 
 !!! tip
 
@@ -125,7 +125,7 @@ note callout
 
 quote callout
 
-# Math
+## Math
 Inline math: $E = mc^2$
 
 Block math:
@@ -133,13 +133,14 @@ $$
 \int_{a}^{b} x^2 dx
 $$
 
-# Footnote
+## Footnote
 Here is a statement with a footnote.[^1]
 
 [^1]: This is the footnote text.
 
-# Table
+## Table
 
+### Normal
 | Header 1 | Header 2 | Header 3 |
 |----------|----------|----------|
 | Row 1    | Data 1   | Data 2   |
@@ -158,7 +159,7 @@ Here is a statement with a footnote.[^1]
 | `.fs-9` | 38px                           | 42px                          |
 | `.fs-10`| 42px                           | 48px                          |
 
-# Table with Math
+### Table with Math
 
 | **Part** | **Formula** | **Calculation** | **Area (mm²)** |
 | :---: | :---: | :---: | :---: |
@@ -168,17 +169,19 @@ Here is a statement with a footnote.[^1]
 | **Total Area** |   |   | **12040** |
 
 
-# Horizontal Separator
+## Horizontal Separator
 
 ---
 
-# Image Local
+## Image 
+
+### Local
 ![Nodes Logo](assets/favicon.png)
 
-# Image Online
+### Online
 ![Sample Image](https://nodesautomations.com/assets/images/home.webp)
 
-# Diagrams
+## Diagrams
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
