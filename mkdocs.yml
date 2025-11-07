@@ -25,10 +25,17 @@ nav:
   - Typography: Typography.md
   - Configuration: Configuration.md
 
+# Repository
+repo_name: GitHub
+repo_url: https://github.com/NodesAutomations/Template_MkDocs
+
+# Copyright
+copyright: Copyright &copy; 2025 Nodes Automations
+
 # Footer social links
 extra:
   social:
-    - icon: assets/favicon.png
+    - icon: fontawesome/globe
       link: https://www.nodesautomations.com
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCnrjW31os9P6_MtSZXt6o-g
@@ -36,3 +43,5 @@ extra:
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/NodesAutomations
+
+
