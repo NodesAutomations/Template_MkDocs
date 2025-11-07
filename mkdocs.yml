@@ -40,6 +40,10 @@ theme:
     edit: material/pencil 
     view: material/eye
 
+# Extensions
+markdown_extensions:
+  - admonition # for Callout boxes
+
 # Copyright
 copyright: Copyright &copy; 2025 Nodes Automations
 
