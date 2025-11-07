@@ -2,10 +2,12 @@
 
 This is a sample documentation site built with MkDocs Material and deployed using GitHub Pages.
 
-## Features
-- Fast and free hosting
-- Beautiful Material theme
-- Easy to update
-
-## Get Started
-Edit the markdown files in the `docs/` folder to update your site content.
+# Document Structure
+- You can add all of documents in doc folder without any frontmatter
+- Page order is set using `nav:` setting in configuration
+```yaml
+nav:
+  - Home: Index.md
+  - Typography: Typography.md
+  - Configuration: Configuration.md
+```
