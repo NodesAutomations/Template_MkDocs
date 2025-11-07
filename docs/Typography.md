@@ -67,7 +67,6 @@ def bubble_sort(items):
 ```
 
 ## Line Numbers
-With line numbers
 ``` py linenums="1"
 def bubble_sort(items):
     for i in range(len(items)):
