@@ -11,3 +11,6 @@ nav:
   - Typography: Typography.md
   - Configuration: Configuration.md
 ```
+
+# Sample Repos
+- https://strandsagents.com/latest/documentation/docs/
