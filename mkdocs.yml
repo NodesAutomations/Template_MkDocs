@@ -7,13 +7,6 @@ repo_name: Template_MkDocs
 repo_url: https://github.com/NodesAutomations/Template_MkDocs
 edit_uri: edit/main/docs/
 
-# Navigation Tree
-nav:
-  - Home:
-    - index.md
-    - Typography: Typography.md
-    - Configuration: Configuration.md
-
 # Theme
 theme:
   name: material
@@ -44,6 +37,10 @@ theme:
     repo: fontawesome/brands/git-alt 
     edit: material/pencil 
     view: material/eye
+    
+plugins:
+  - search
+  - awesome-nav
 
 # Extensions
 markdown_extensions:
